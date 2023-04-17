@@ -69,7 +69,7 @@
     .texts {
         width: 800px;
         height: 800px;
-        background-color: green;
+        // background-color: green;
     }
 
     .textsLeft {
@@ -79,14 +79,24 @@
     .textsRight {
         width: 100%;
         height: 600px;
-        background-color: blue;
+        // background-color: blue;
     }
 
     .textRightTop {
         width: 100%;
         height: 500px;
-        background-color: red;
+        // background-color: red;
 
     }
 
+}
+
+
+
+@media (max-width:800px) {
+    .textsRight {
+        width: 600px;
+        height: 690px;
+        background-color: red;
+    }
 }
