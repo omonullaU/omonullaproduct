@@ -1,5 +1,5 @@
 .textarea1 {
-    width: 80%;
+    width: 50%;
     margin: auto;
     border-radius: 20px;
     height: 700px;
@@ -32,22 +32,25 @@
             object-fit: cover;
             z-index: 3;
             position: absolute;
+            border-radius: 20px;
         }
     }
 }
 
 
 @media screen and (width:830px) {
-    .textarea {
+    .textarea1 {
         width: 300px;
+        background-color: red;
         height: 450px;
         // margin-left: -200px;
 
+        textarea {
+            width: 50%;
+            height: 400px;
+            // background-color: red;
+        }
     }
 
-    textarea {
-        width: 50%;
-        height: 400px;
-        // background-color: red;
-    }
+
 }
