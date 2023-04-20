@@ -164,11 +164,14 @@
 
     .containerBottom {
         width: 500px;
-        min-height: 100vh;
-        height: auto;
-        background-color: red;
+        min-height: 600px;
+        // background-color: red;
         flex-wrap: wrap;
 
+        img {
+            width: 300px;
+            height: 300px;
+        }
     }
 
     .silderDiv {
@@ -287,7 +290,7 @@
     .containerBottom {
         width: 100%;
         height: 400px;
-        background-color: aqua;
+        // background-color: aqua;
         flex-wrap: wrap;
 
         img {
@@ -305,11 +308,34 @@
         .containerBottomRight {
             width: 300px;
             height: 400px;
-            background-color: yellow;
+            // background-color: yellow;
         }
     }
 }
 
+@media (max-width:750px) {
+    .containerBottom {
+        width: 400px;
+        height: 500px;
+
+        .containerBottomLeft {
+            width: 600px;
+            height: 500px;
+
+
+            img {
+                width: 100%;
+                height: 100%;
+                background-color: red;
+            }
+        }
+
+        .containerBottomRight {
+            display: none;
+        }
+
+    }
+}
 
 
 // @media screen and (max-width:1550px) {

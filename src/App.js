@@ -3,11 +3,11 @@ import Container from './components/Container/Container';
 import Master from './components/Master/Master';
 import RespectComp from './components/RespectComp/RespectComp';
 import Run from './components/Run/Run';
-// import Swiper from './components/Swiper/Swiper';
+import Swiper from './components/Swiper/Swiper';
 import ToPul from './components/ToPull/ToPul';
-import Banner from './components/banner/Banner';
+// import Banner from './components/banner/Banner';
 import CenterText from './components/centerText/CenterText';
-// import Footer from './components/footer/Footer';
+import Footer from './components/footer/Footer';
 // import Navbar from './components/navbar/Navbar';
 import Product from './components/product/Product';
 import Textarea from './components/textarea/Textarea';
@@ -18,8 +18,8 @@ function App() {
     <div className="App">
       {/* <Navbar /> */}
       <Product />
-      <Banner />
-      {/* <Swiper /> */}
+      {/* <Banner /> */}
+      <Swiper />
       <Textarea />
       <ToPul />
       <RespectComp />
@@ -28,7 +28,7 @@ function App() {
       <Run />
       <Texts />
       <CenterText />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

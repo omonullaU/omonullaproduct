@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "../navbar/Navbar.scss"
 import { BiSearchAlt } from "react-icons/bi"
 import { IoMdContact } from "react-icons/io"
@@ -33,11 +33,21 @@ function Navbar() {
     // const todes1 = () => {
     //     uldes1(!des1)
     // }
+    const [scrollClick, setSrollClick] = useState(false)
 
 
+    useEffect(() => {
+        window.addEventListener("scroll", function () {
+            if (this.window.scrollY > 600) {
+                setSrollClick(true)
+            } else {
+                setSrollClick(false)
+            }
+        })
+    }, [window.scrollY])
 
     return (
-        <div className='navbar'>
+        <div style={scrollClick ? { background: "rgba(0, 0, 0, 0.488)", } : { background: "unset" }} className='navbar'>
             <div className="navbarTop">
                 <GoThreeBars className='bars' onClick={toBars} />
 

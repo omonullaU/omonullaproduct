@@ -38,6 +38,26 @@
 }
 
 
+
+@media (max-width:1110px) {
+    .textarea1 {
+        width: 80%;
+        background-color: red;
+        height: 500px;
+        object-fit: cover;
+
+        textarea {
+            width: 50%;
+            height: 50px;
+            // background-color: red;
+            object-fit: cover;
+
+        }
+    }
+
+
+}
+
 @media screen and (width:830px) {
     .textarea1 {
         width: 300px;

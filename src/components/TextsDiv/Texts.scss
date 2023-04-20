@@ -93,10 +93,148 @@
 
 
 
-@media (max-width:800px) {
+@media (max-width:810px) {
     .textsRight {
-        width: 600px;
+        width: 900px;
         height: 690px;
-        background-color: red;
+        // background-color: red;
     }
+
+    .texts {
+        width: 700px;
+        height: 700px;
+
+    }
+}
+
+
+@media (max-width:830px) {
+    .textsRight {
+        width: 400px;
+        height: 690px;
+        // background-color: aqua;
+        position: absolute;
+
+        .textRightTop {
+            width: 800px;
+            height: 500px;
+            // background-color: aqua;
+
+
+            details {
+                width: 500px;
+                height: 120px;
+                background-color: #f1f1f1;
+                margin-top: -30px;
+                border-radius: 10px;
+                margin-left: -30px;
+
+                summary {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .texts {
+        width: 600px;
+        height: 700px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:610px) {
+    .textsRight {
+        width: 300px;
+        height: 690px;
+        // background-color: aqua;
+        position: absolute;
+
+        .textRightTop {
+            width: 700px;
+            height: 500px;
+            // background-color: aqua;
+
+
+            details {
+                width: 260%;
+                height: 120px;
+                background-color: #f1f1f1;
+                margin-top: -30px;
+                border-radius: 10px;
+                // margin-left: -30px;
+
+                summary {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .texts {
+        width: 90%;
+        height: 700px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+    .textsRight {
+        width: 300px;
+        height: 690px;
+        // background-color: aqua;
+        position: absolute;
+
+        .textRightTop {
+            width: 700px;
+            height: 500px;
+            // background-color: aqua;
+
+
+            details {
+                width: 300%;
+                height: 120px;
+                background-color: #f1f1f1;
+                margin-top: -30px;
+                border-radius: 10px;
+                // margin-left: -30px;
+
+                summary {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .texts {
+        width: 90%;
+        height: 700px;
+
+    }
+
+
 }
